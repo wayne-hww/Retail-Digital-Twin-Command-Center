@@ -9,8 +9,7 @@ import {
   Camera,
   ChevronDown,
   Monitor,
-  Venus,
-  Mars,
+  User,
   Wifi
 } from 'lucide-react';
 import { 
@@ -355,8 +354,8 @@ const App: React.FC = () => {
             </h3>
             
             <div className="space-y-10">
-              <DemographicRow icon={<Venus className="w-6 h-6 text-pink-500" />} label="Female Visitors" value={dailyStats.femaleCount} color="text-pink-400" />
-              <DemographicRow icon={<Mars className="w-6 h-6 text-cyan-500" />} label="Male Visitors" value={dailyStats.maleCount} color="text-cyan-400" />
+              <DemographicRow icon={<User className="w-6 h-6 text-pink-500" />} label="Female Visitors" value={dailyStats.femaleCount} color="text-pink-400" />
+              <DemographicRow icon={<User className="w-6 h-6 text-cyan-500" />} label="Male Visitors" value={dailyStats.maleCount} color="text-cyan-400" />
               
               <div className="pt-6 border-t border-cyan-900/20">
                 <div className="flex items-center justify-between">
